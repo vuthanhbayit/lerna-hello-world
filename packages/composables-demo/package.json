@@ -1,6 +1,6 @@
 {
   "name": "@vt7/composables-demo",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "> TODO: description",
   "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@vt7/utils-demo": "^0.0.10"
+    "@vt7/utils-demo": "^0.0.11"
   },
   "publishConfig": {
     "access": "public"
