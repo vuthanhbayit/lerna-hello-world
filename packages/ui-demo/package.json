@@ -20,6 +20,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite --config ./playground/vite.config.ts",
     "build": "unbuild",
