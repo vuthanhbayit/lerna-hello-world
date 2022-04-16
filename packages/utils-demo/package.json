@@ -1,6 +1,6 @@
 {
   "name": "@vt7/utils-demo",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "> TODO: description",
   "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
   "homepage": "",
@@ -10,7 +10,9 @@
   "directories": {
     "dist": "dist"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },

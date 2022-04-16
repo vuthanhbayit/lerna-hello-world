@@ -1,6 +1,6 @@
 {
   "name": "@vt7/ui-demo",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "> TODO: description",
   "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
   "homepage": "https://github.com/vuthanhbayit/lerna-hello-world#readme",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.0",
-    "@vt7/utils-demo": "^0.0.9",
+    "@vt7/utils-demo": "^0.0.10",
     "vue": "^2.6.14"
   },
   "devDependencies": {
