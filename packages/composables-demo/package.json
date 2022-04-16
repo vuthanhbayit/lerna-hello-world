@@ -18,5 +18,8 @@
   },
   "dependencies": {
     "@vt7/utils-demo": "^0.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
