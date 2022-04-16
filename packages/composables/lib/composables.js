@@ -9,3 +9,4 @@ function composables() {
 }
 
 composables()
+composables()
