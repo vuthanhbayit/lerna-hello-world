@@ -5,3 +5,5 @@ module.exports = composables;
 function composables() {
     // TODO
 }
+
+composables()
