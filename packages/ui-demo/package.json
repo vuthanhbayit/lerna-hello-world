@@ -24,6 +24,7 @@
     "access": "public"
   },
   "scripts": {
+    "prepublishOnly": "yarn build",
     "dev": "vite --config ./playground/vite.config.ts",
     "build": "unbuild",
     "preview": "vite preview"

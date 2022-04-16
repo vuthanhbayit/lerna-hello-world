@@ -17,6 +17,7 @@
     "access": "public"
   },
   "scripts": {
+    "prepublishOnly": "yarn build",
     "build": "unbuild"
   },
   "devDependencies": {
