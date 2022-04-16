@@ -1,5 +1,8 @@
 {
   "name": "root",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes"
