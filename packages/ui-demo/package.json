@@ -1,0 +1,48 @@
+{
+  "name": "@vt7/ui-demo",
+  "version": "0.0.9",
+  "description": "> TODO: description",
+  "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
+  "homepage": "https://github.com/vuthanhbayit/lerna-hello-world#readme",
+  "bugs": {
+    "url": "https://github.com/vuthanhbayit/lerna-hello-world/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuthanhbayit/lerna-hello-world.git"
+  },
+  "license": "ISC",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite --config ./playground/vite.config.ts",
+    "build": "unbuild",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "@vt7/utils-demo": "^0.0.9",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.4.9",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-nesting": "^10.1.4",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.5.4",
+    "unbuild": "^0.7.4",
+    "vite": "^2.9.2",
+    "vite-plugin-vue2": "^1.9.3",
+    "vue-template-compiler": "^2.6.14",
+    "vue-tsc": "^0.29.8"
+  }
+}

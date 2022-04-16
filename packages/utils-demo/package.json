@@ -5,18 +5,19 @@
   "author": "Vu Thanh Bay <vuthanhbayit@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/utils.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.mjs",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "dist": "dist"
   },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
+  "files": ["dist"],
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "build": "unbuild"
+  },
+  "devDependencies": {
+    "unbuild": "^0.7.4"
   }
 }
