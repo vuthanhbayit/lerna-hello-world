@@ -2,8 +2,6 @@
   <component
       :is="tag"
       class="button buttonPrimary"
-      v-bind="attrs"
-      v-on="$listeners"
   >
     <slot></slot>
   </component>
@@ -32,18 +30,9 @@ export default defineComponent({
     loading: { type: Boolean, default: false },
   },
 
-  setup(props, context) {
+  setup(props) {
     const tag = computed(() => {
       return props.nuxt ? 'nuxt-link' : 'button'
-    })
-
-    const attrs = computed(() => {
-      const _attrs = {
-        ...context.attrs,
-      } as Record<string, unknown>
-      if (props.nuxt) _attrs.to = props.href
-      if (props.disabled) _attrs.disabled = true
-      return _attrs
     })
 
     onMounted(async () => {
@@ -57,7 +46,7 @@ export default defineComponent({
       console.log('sleep', 4000)
     })
 
-    return { attrs, tag }
+    return { tag }
   },
 })
 </script>
