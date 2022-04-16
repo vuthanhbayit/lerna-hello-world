@@ -2,7 +2,23 @@
   "version": "0.0.2",
   "npmClient": "yarn",
   "useWorkspaces": true,
+  "conventionalCommits": true,
   "packages": [
     "packages/*"
-  ]
+  ],
+  "command": {
+    "publish": {
+      "npmClient": "npm"
+    }
+  },
+  "changelog": {
+    "labels": {
+      "feat": "New Feature",
+      "fix": "Bug Fix",
+      "docs": "Documentation",
+      "types": "Types",
+      "perf": "Performance",
+      "refactor": "Refactor"
+    }
+  }
 }
